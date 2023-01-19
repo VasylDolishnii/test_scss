@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto';
+  background-color: var(--letters_and_logo_color_white);
+  color: var(--letters_and_logo_color_black);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}

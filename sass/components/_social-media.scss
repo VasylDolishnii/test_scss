@@ -1,0 +1,28 @@
+.social-media {
+  color: var(--whiete_social_media);
+  border-radius: 50%;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--link_and_button_color);
+    color: var(--letters_and_logo_color_white);
+    outline: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__footer_bg {
+    background-color: var(--footer_bg_black);
+  }
+}
+.social-media-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+}

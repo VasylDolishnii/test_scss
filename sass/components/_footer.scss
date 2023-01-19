@@ -1,0 +1,41 @@
+.footer {
+  background: #2f303a;
+  line-height: 24px;
+  padding: 60px 0;
+  &__contact {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+  }
+}
+
+.contact__info {
+  color: var(--footer_contact_grey);
+}
+address {
+  font-style: normal;
+  margin-top: 20px;
+}
+.address__map {
+  color: var(--letters_and_logo_color_white);
+}
+.address__items:not(:last-child) {
+  margin-bottom: 9px;
+}
+.contact__info:hover {
+  color: var(--link_and_button_color);
+}
+.footer_a_style {
+  font-size: 14px;
+  line-height: 1.71;
+}
+address > a:hover {
+  color: var(--link_and_button_color);
+}
+.join-us__title {
+  color: var(--letters_and_logo_color_white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}

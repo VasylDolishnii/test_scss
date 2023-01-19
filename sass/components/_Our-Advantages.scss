@@ -1,0 +1,40 @@
+.Our-Advantages {
+  &__ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__icons {
+    background-color: var(--icons_white);
+    height: 120px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  &__title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  &__box-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+  }
+  &__list > p {
+    width: 270px;
+    line-height: 1.71;
+    color: var(--links_and_subtitle_white-grey);
+  }
+}
